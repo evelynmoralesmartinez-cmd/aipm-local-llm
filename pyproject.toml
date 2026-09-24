@@ -1,0 +1,11 @@
+[project]
+name = "aipm-local-llm"
+version = "0.1.0"
+description = "Local LLM inference and evaluation for AI Product Managers"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jsonschema>=4.26.0",
+    "requests>=2.32.5",
+]
